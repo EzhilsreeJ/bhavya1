@@ -1,1 +1,11 @@
-This command will create a `build` folder containing the optimized static assets for deployment.
+.
+├── public
+│   ├── index.html
+│   └── favicon.ico
+├── src
+│   ├── App.css
+│   ├── App.js
+│   ├── index.css
+│   └── index.js
+├── package.json
+└── README.md
