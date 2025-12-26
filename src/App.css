@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-header {
+  background-color: #003366; /* Saveetha Blue */
+  padding: 20px 40px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.App-header .logo {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.App-header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+.App-header nav a:hover {
+  color: #ffcc00; /* Saveetha Yellow */
+}
+
+.hero-section {
+  background-image: url('https://www.saveetha.ac.in/images/sec-banner.jpg'); /* Placeholder Image - Replace with actual SEC banner */
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section .hero-content {
+  background-color: rgba(0, 51, 102, 0.7); /* Semi-transparent Saveetha Blue */
+  padding: 40px 60px;
+  border-radius: 10px;
+}
+
+.hero-section h1 {
+  font-size: 3.5em;
+  margin-bottom: 15px;
+  color: #ffcc00; /* Saveetha Yellow */
+}
+
+.hero-section p {
+  font-size: 1.5em;
+  line-height: 1.6;
+}
+
+.content-section {
+  padding: 50px 20px;
+  flex-grow: 1; /* Allows this section to take up remaining vertical space */
+  text-align: left;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.content-section h2 {
+  font-size: 2.5em;
+  color: #003366;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.content-section p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.App-footer {
+  background-color: #001f3f; /* Darker Blue */
+  color: white;
+  padding: 30px 40px;
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: auto; /* Pushes footer to the bottom */
+}
+
+.App-footer p {
+  margin: 0;
+}
+
+.App-footer a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+.App-footer a:hover {
+  text-decoration: underline;
+}
